@@ -21,4 +21,10 @@ public class Background{
         g.fillRect(0,414, 1000,20);
         g.fillRect(0,445, 1000,20);
     }
+    public static void drawSun(Graphics g){
+        g.setColor(new Color(255,195,0));
+
+        g.fillArc(937,-65,125,125,180,90);
+    }
+
 }

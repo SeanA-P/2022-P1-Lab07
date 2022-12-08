@@ -9,6 +9,7 @@ public class Main extends Applet{
         Background.drawSky(g);
         Background.drawRoad(g);
         Background.drawLines(g);
+        Background.drawSun(g);
 
         Car.drawBase(g);
         Car.drawTop(g);
